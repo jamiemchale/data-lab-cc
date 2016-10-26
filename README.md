@@ -28,5 +28,8 @@ http://download.companieshouse.gov.uk/en_output.html
 
 ## Tourism and Transport
 
+#### Visit Scotland
+
+Questionnaire and responses included in `travel_tourism/source/GBTS`
 
 ## Environment

@@ -32,4 +32,26 @@ http://download.companieshouse.gov.uk/en_output.html
 
 Questionnaire and responses included in `travel_tourism/source/GBTS`
 
+#### Edinburgh Open Data
+
+Various transport related sets including Bike Counters and Traffic collisions.
+
+http://data.edinburghopendata.info/dataset
+
+#### Glasgow Open Data
+
+Including traffic and pedestrian counts.
+
+https://data.glasgow.gov.uk/dataset
+
+#### Urban Big Data Center
+
+http://ubdc.gla.ac.uk/dataset?tags=Transport
+
 ## Environment
+
+#### Glasgow Open Data
+
+Some environmental data, often headline figures.
+
+https://data.glasgow.gov.uk/dataset?tags=environment

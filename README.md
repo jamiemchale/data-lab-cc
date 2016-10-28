@@ -2,7 +2,7 @@
 
 Data for the Data Lab Challenge Competition
 
-## Health
+## Health and Social Care
 
 #### Prescription Data
 

@@ -32,6 +32,10 @@ http://download.companieshouse.gov.uk/en_output.html
 
 Questionnaire and responses included in `travel_tourism/source/GBTS`
 
+#### Airport Data
+
+http://ckan-strathclyde.cloudapp.net/dataset/air-passengers-by-type-and-nationality-of-operator-at-glasgow-airport
+
 #### Edinburgh Open Data
 
 Various transport related sets including Bike Counters and Traffic collisions.
@@ -55,3 +59,7 @@ http://ubdc.gla.ac.uk/dataset?tags=Transport
 Some environmental data, often headline figures.
 
 https://data.glasgow.gov.uk/dataset?tags=environment
+
+## General
+
+http://ckan-strathclyde.cloudapp.net/dataset?tags=Scotland

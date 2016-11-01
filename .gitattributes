@@ -1,0 +1,2 @@
+environment/*.csv filter=lfs diff=lfs merge=lfs -text
+environment/**/*.csv filter=lfs diff=lfs merge=lfs -text

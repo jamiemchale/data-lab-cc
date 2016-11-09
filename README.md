@@ -42,6 +42,10 @@ Various transport related sets including Bike Counters and Traffic collisions.
 
 http://data.edinburghopendata.info/dataset
 
+Edinburgh Footfall data
+
+http://data.edinburghopendata.info/dataset/monthly-footfall-data
+
 #### Glasgow Open Data
 
 Including traffic and pedestrian counts.
@@ -59,6 +63,11 @@ http://ubdc.gla.ac.uk/dataset?tags=Transport
 Some environmental data, often headline figures.
 
 https://data.glasgow.gov.uk/dataset?tags=environment
+
+
+#### Edinburgh CO2 Data
+
+http://data.edinburghopendata.info/dataset/co2-emissions
 
 ## General
 

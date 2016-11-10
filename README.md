@@ -1,6 +1,10 @@
 # Data Lab Challenge Competition
 
-Data for the Data Lab Challenge Competition
+Data for the Data Lab Challenge Competition is available on the Urban Tide U~Smart Platform at:
+
+https://usmart.io/#/org/productforge
+
+Further data sets and signposts to repositories are listed below:
 
 ## Health
 

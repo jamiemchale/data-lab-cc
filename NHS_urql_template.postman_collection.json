@@ -24,7 +24,7 @@
 		{
 			"name": "BNFItemCode matches a number (equals operator)",
 			"request": {
-				"url": "https://api.usmart.io/org/5a8ab321-f7ab-4108-aa1e-6b400540c619/4dcd3b64-af17-4324-af3b-e78348050006/latest/urql",
+				"url": "https://api.usmart.io/org/5a8ab321-f7ab-4108-aa1e-6b400540c619/4dcd3b64-af17-4324-af3b-e78348050006/latest/urql?eq(BNFItemCode,0401010N0AAAAAA)",
 				"method": "GET",
 				"header": [],
 				"body": {

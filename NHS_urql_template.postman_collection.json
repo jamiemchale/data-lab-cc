@@ -1,0 +1,81 @@
+{
+	"variables": [],
+	"info": {
+		"name": "URQL NHS data demo",
+		"_postman_id": "dd053d40-5967-5012-12c2-6f2ea10e37fe",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "BNFItemCode matches a value",
+			"request": {
+				"url": "https://api.usmart.io/org/5a8ab321-f7ab-4108-aa1e-6b400540c619/4dcd3b64-af17-4324-af3b-e78348050006/latest/urql?BNFItemCode=0401010N0AAAAAA",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BNFItemCode matches a number (equals operator)",
+			"request": {
+				"url": "https://api.usmart.io/org/5a8ab321-f7ab-4108-aa1e-6b400540c619/4dcd3b64-af17-4324-af3b-e78348050006/latest/urql",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BNFItemCode matches multiple values",
+			"request": {
+				"url": "https://api.usmart.io/org/5a8ab321-f7ab-4108-aa1e-6b400540c619/4dcd3b64-af17-4324-af3b-e78348050006/latest/urql?in(BNFItemCode,(0401010N0AAAAAA,0401020K0AAAIAI))",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BNFItemCode matches multiple values, but only return the code and ddescription",
+			"request": {
+				"url": "https://api.usmart.io/org/5a8ab321-f7ab-4108-aa1e-6b400540c619/4dcd3b64-af17-4324-af3b-e78348050006/latest/urql?in(BNFItemCode,(0401010N0AAAAAA,0401020K0AAAIAI))&select(BNFItemCode,BNFItemDescription) ",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "BNFItemCode matches multiple values, but only return code, description and quantity of paid items AND ALSO sorted on paid items",
+			"request": {
+				"url": "https://api.usmart.io/org/5a8ab321-f7ab-4108-aa1e-6b400540c619/4dcd3b64-af17-4324-af3b-e78348050006/latest/urql?in(BNFItemCode,(0401010N0AAAAAA,0401020K0AAAIAI))&select(BNFItemCode,BNFItemDescription,NumberofPaidItems) &sort(-NumberofPaidItems)",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
